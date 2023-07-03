@@ -1,0 +1,37 @@
+header {
+    margin-top: 10px;
+}
+
+.logo_and_back {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    margin: 10px;
+    width: 45%;
+}
+
+.localisation {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAEAEA;
+    color: #353535;
+    font-size: 20px;
+}
+p {
+    margin-left: 15px;
+    margin: 10px;
+}
+
+
+/* responsive pour tablette */
+@media screen and (min-width: 768px) {
+    #logo {
+        margin: 25px;
+        width: 200px;
+    }
+
+}
